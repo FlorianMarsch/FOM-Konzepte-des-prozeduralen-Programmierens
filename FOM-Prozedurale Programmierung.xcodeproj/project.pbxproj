@@ -41,7 +41,7 @@
 		6C954FE5205D2C51005BBD12 = {
 			isa = PBXGroup;
 			children = (
-				6C954FF0205D2C51005BBD12 /* FOM-Prozedurale Programmierung */,
+				6C954FF0205D2C51005BBD12 /* Kapitel 2 */,
 				6C954FEF205D2C51005BBD12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C954FF0205D2C51005BBD12 /* FOM-Prozedurale Programmierung */ = {
+		6C954FF0205D2C51005BBD12 /* Kapitel 2 */ = {
 			isa = PBXGroup;
 			children = (
 				6C954FF1205D2C51005BBD12 /* main.c */,
 			);
-			path = "FOM-Prozedurale Programmierung";
+			path = "Kapitel 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
