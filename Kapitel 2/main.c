@@ -21,5 +21,13 @@ int main() {
     float f = 3.1486;
     printf("Wert : %.3f\n", f); // 3.149
     
+    // char wit '
+    char c1 = 'A';
+    
+    // or as ASCII
+    char c2 = 66; // 'B'
+    
+    printf("Wert : %c und %c \n", c1,c2); // A und B
+    
     return 0;
 }
