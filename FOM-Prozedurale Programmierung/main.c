@@ -8,8 +8,18 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
+int main() {
+    
+    // New Line = \n
     printf("Hello, World!\n");
+    
+    //    leading zero
+    int i = 8;
+    printf("Wert : %010i\n", i); // 0000000008
+    
+    // rounding
+    float f = 3.1486;
+    printf("Wert : %.3f\n", f); // 3.149
+    
     return 0;
 }
