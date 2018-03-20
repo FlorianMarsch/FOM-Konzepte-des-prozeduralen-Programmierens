@@ -1,5 +1,5 @@
 //
-//  main.c
+//  printf.c
 //  FOM-Prozedurale Programmierung
 //
 //  Created by Florian Marsch on 17.03.18.
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main() {
+int print() {
     
     // New Line = \n
     printf("Hello, World!\n");
@@ -28,6 +28,9 @@ int main() {
     char c2 = 66; // 'B'
     
     printf("Wert : %c und %c \n", c1,c2); // A und B
+    
+    
+    
     
     return 0;
 }
