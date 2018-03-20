@@ -8,6 +8,39 @@
 
 #include <stdio.h>
 
+int task0201(){
+    printf("Hello, World!\n");
+    return 0;
+}
+
+int task0202(){
+    int a,b=5,c,d;
+    
+    a = b / 2; // a = 2
+    c = b % 2; // c = 1
+    d = b << a; // d = 20
+    b = 1- --b; // b = -3
+    
+    printf("\n a=%i b=%i c=%i d=%i",a,b,c,d);
+    
+    b *= -3; // b = 9
+    d %= 3; // d = 2
+    c += b * d + 4; // c = 23
+    a = --b + d++; // a = 10, b = 8, d = 3
+    
+    printf("\n a=%i b=%i c=%i d=%i",a,b,c,d);
+    
+    a=0; b=2; c=3; d=4;
+    a = (b+2) * 2* c +1; // a = 25
+    a = ++b * d++ * ++c * (-1);
+    // a = -48
+    // b = 3
+    // c = 4
+    // d = 5
+    
+    printf("\n a=%i b=%i c=%i d=%i",a,b,c,d);
+}
+
 int task0203 (){
     
     float a, b;
