@@ -20,6 +20,21 @@ int task0203 (){
     return 0;
 }
 
+int task0204 (){
+    
+    float schlaege, alter;
+    printf("\n\t\tHerzschlaege\n");
+    printf("\nHerzschlaege pro Minute: \n");
+    scanf("%f", &schlaege);
+    printf("Alter in Jahren: \n");
+    scanf("%f", &alter);
+    printf("\nIhr Herz hat seit Ihrer Geburt ");
+//    printf("%f ", schlaege * 60 * 24 * 365.25 * alter);
+    printf("%.0f ", schlaege * 60 * 24 * 365.25 * alter); // Changed
+    printf("mal geschlagen. ");
+    return 0;
+}
+
 
 
 int task0205 (){
@@ -64,7 +79,7 @@ int task0207 (){
     
     return 0;
 }
-int main (){
+int task0208 (){
     
     int seconds;
     printf("\nWie viele Sekunden sollen umgerechnet werden?: ");
