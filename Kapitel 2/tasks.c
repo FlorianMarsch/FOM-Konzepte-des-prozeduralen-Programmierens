@@ -64,7 +64,7 @@ int task0207 (){
     
     return 0;
 }
-int task0208 (){
+int main (){
     
     int seconds;
     printf("\nWie viele Sekunden sollen umgerechnet werden?: ");
@@ -72,13 +72,13 @@ int task0208 (){
     
     
     int minutes =  seconds / 60;
-    int restSeconds = seconds - (minutes*60);
+    int restSeconds = seconds % 60;
     
     int hours = minutes /60;
-    int restMinutes = minutes - (hours*60);
+    int restMinutes = minutes % 60;
     
     int days = hours / 24;
-    int restHours = hours - (days*24);
+    int restHours = hours % 24;
     
     printf("\n%i Sekunden sind %i Tage %i Stunden %i Minuten %i Sekunden \n", seconds,days, restHours,  restMinutes, restSeconds);
     
