@@ -39,6 +39,7 @@ int task0202(){
     // d = 5
     
     printf("\n a=%i b=%i c=%i d=%i",a,b,c,d);
+    return 0;
 }
 
 int task0203 (){
