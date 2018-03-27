@@ -59,7 +59,7 @@ int task0305(){
 }
 
 int task0307(){
-    int a,b,c;
+    int a,b,c,d;
     printf("Gebe eine Zahl ein : \n");
     scanf("%i", &a);
     printf("Gebe eine zweite Zahl ein : \n");
@@ -69,6 +69,16 @@ int task0307(){
     
     int min=a<b?a:b;
     min=min<c?min:c;
+    
+    /*
+     shortest way with 20 chars
+     int d;
+     
+     d = a < b ? a : b ; d = d < c ? d : c;
+     
+     d = a < b & a < c ? a : b < c ? b : c;
+     
+     */
     
     printf("Die kleinste Zahl ist %i \n", min);
     return 0;
