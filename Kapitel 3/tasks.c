@@ -154,3 +154,42 @@ int task0311(){
     return 0;
 }
 
+int task0312(){
+    int a;
+    float preis, zahlung, restbetrag, einwurf;
+    printf("Wasser 1 - Bier 2 - Wein 3 : \n");
+    scanf("%i", &a);
+    
+    
+    switch(a) {
+        case 1:
+            printf("Wasser kostet 2\n");
+            preis = 2.00;
+            break;
+        case 2:
+            printf("Bier kostet 3\n");
+            preis = 3.00;
+            break;
+        case 3:
+            printf("Wein kostet 4\n");
+            preis = 4.00;
+            break;
+        default:
+            printf("Kein Getränk für dich\n");
+            return 0;
+    }
+    restbetrag = preis;
+    do{
+        printf("Es werden noch %.2f Euro benötig. Wirf eine Münze ein:\n", restbetrag);
+        scanf("%f", &einwurf);
+        restbetrag = restbetrag - einwurf;
+        
+    }while(restbetrag > 0);
+    
+    
+    printf("Bitte entnehme dein Getränk\n");
+    if(restbetrag != 0){
+        printf("Rückgeld %.2f:\n", -restbetrag);
+    }
+    return 0;
+}
